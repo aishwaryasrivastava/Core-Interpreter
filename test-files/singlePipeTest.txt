@@ -1,0 +1,1 @@
+hello this file contains a single pipe | symbol

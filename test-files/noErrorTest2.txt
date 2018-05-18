@@ -1,0 +1,7 @@
+program int X; begin 
+	Y = 45;
+	if Y == 40 then
+		return true;
+	elsif Y == 20 || Y == 30 then
+		return false;
+end
