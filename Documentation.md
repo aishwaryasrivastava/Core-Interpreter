@@ -9,6 +9,7 @@ This class is largely based on the Tokenizer interface provided in the course ma
 	1. ```Tail```: the complete list of words read from the input
 	2. ```Head```: the item on the tail that is currently being tokenized
 	3. ```Token```: the most recent token that has been read by the tokenizer
+
 The constructor for the ```tokenizer``` class takes in a list of words from the input which becomes the tail of the tokenizer. It assignes the first word form this tail to be the head, and the token to be the empty string.
 
 ```getToken()```: This method mimics the finite state automata discussed in class and sets ```self.token``` to be the token that is read from the head, and returns the kind of ```self.token```.
